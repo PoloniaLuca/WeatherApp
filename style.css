@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+}
+
+#title-landing {
+  color: #002651;
+  font-size: 144px;
+  font-weight: bold;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29%;
+  width: 800px;
+  margin-bottom: 31px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(33, 230, 193, 0.5);
+}
+
+.subtitle {
+  color: #1f4287;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.standard-city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-weather {
+  border-radius: 37px;
+  background: linear-gradient(
+    180deg,
+    rgba(39, 142, 165, 0.7) 0%,
+    rgba(125, 125, 125, 0) 100%
+  );
+  width: 800px;
+  height: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 29%;
+}
+
+.other-city-weather {
+  border-radius: 37px;
+  background: linear-gradient(
+    179.88deg,
+    rgba(255, 255, 255, 0) -4.49%,
+    rgba(38, 116, 126, 0.7) 87.39%
+  );
+}
+
+.fixed-city1 {
+  width: 359px;
+  height: 282px;
+}
+
+.fixed-city2 {
+  width: 350px;
+  height: 282px;
+  margin-left: 101px;
+}
+
+.fixed-city3 {
+  width: 409px;
+  height: 282px;
+  margin-left: 101px;
+}
+
+.general-information {
+  position: relative;
+  text-align: left;
+  top: 2%;
+  left: 10%;
+  font-size: 18px;
+  font-weight: bold;
+  width: 320px;
+}
+
+.list-inline {
+  margin: 4%;
+}
+
+.powered-by {
+  position: relative;
+  right: -89%;
+  margin-top: -4%;
+}
